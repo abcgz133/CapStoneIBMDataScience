@@ -1,7 +1,0 @@
-!pip install ipython-sql
-%load_ext sql
-%sql mysql+pymysql://root:root@localhost/heima
-
-
-%%sql 
-select * from tb_hotel
